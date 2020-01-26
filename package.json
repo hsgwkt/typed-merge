@@ -2,7 +2,7 @@
   "name": "typed-merge",
   "version": "0.1.0",
   "license": "MIT",
-  "source": "src/index.ts",
+  "source": "src/typed-merge.ts",
   "main": "dist/typed-merge.js",
   "module": "dist/typed-merge.m.js",
   "unpkg": "dist/typed-merge.umd.js",
