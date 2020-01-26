@@ -1,0 +1,17 @@
+{
+  "name": "typed-merge",
+  "version": "0.1.0",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/typed-merge.js",
+  "module": "dist/typed-merge.m.js",
+  "unpkg": "dist/typed-merge.umd.js",
+  "types": "dist/typed-merge.d.ts",
+  "scripts": {
+    "build": "microbundle --sourcemap false",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
